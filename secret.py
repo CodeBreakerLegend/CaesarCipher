@@ -87,7 +87,7 @@ message = StringVar()
 password = IntVar()
 
 message_entry = Entry(textvariable=message, width="30")
-password_entry = Entry(textvariable=password, width="30")
+password_entry = Entry(textvariable=password, show="*", width="30")
 
 message_entry.place(x=15, y=100)
 password_entry.place(x=15, y=180)
